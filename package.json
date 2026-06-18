@@ -1,0 +1,41 @@
+{
+  "name": "backend-bootcamp",
+  "version": "1.0.0",
+  "description": "Techchlime Skillup Bootcamp - Backend Classess",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "day2": "nodemon day-02/lesson/server.js",
+    "day2:assigment": "nodemon day-02/assignment/server.js",
+    "day3": "nodemon day-03/lesson/server.ts",
+    "day3:assignment": "nodemon day-03/assignment/server.ts",
+    "day4": "nodemon day-04/lesson/server.ts",
+    "day4:assignment": "nodemon day-04/assignment/server.ts",
+    "day5": "nodemon day-05/lesson/server.ts",
+    "day5:assignment": "nodemon day-05/assignment/server.ts",
+    "day6": "nodemon day-06/lesson/server.ts",
+    "day6:assignment": "nodemon day-06/assignment/server.ts",
+    "day7": "nodemon day-07/lesson/server.ts",
+    "day7:assignment": "nodemon day-07/assignment/server.ts",
+    "day8": "nodemon day-08/lesson/server.ts",
+    "day8:assignment": "nodemon day-08/assignment/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.3",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
